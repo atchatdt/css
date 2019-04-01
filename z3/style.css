@@ -1,0 +1,44 @@
+body{
+	font-family: sans-serif;
+}
+
+.main {
+	display: flex;
+	padding: 12px 0;
+	border-bottom: 1px solid red;
+	
+	
+}
+
+.main .info{
+	margin-left: 10px;
+
+}
+
+.main .info .singer{
+	margin: 10px 0;
+}
+.main .album{
+	width: 128px;
+	height: 128px;
+	background-color:#ddd; 
+	background-image: url('https://via.placeholder.com/128x128');
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.main .album .overlay{
+	height: 100%;
+	background: linear-gradient(0deg, rgba(145,8,8,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+	padding: 10px;
+	box-sizing: border-box; /*không thay đổi size bên ngoài*/
+}
+.main .thong{
+	color: red;
+}

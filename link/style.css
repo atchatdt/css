@@ -1,0 +1,29 @@
+.link{
+
+	color: #009;
+}
+
+.link:link{
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.link:visited{
+	
+}
+.link:hover{
+text-decoration: underline;
+}
+.link:active{
+	color: #f00;
+}
+.register{
+	background: #009;
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial sans-serif;
+	padding: 9px 23px;
+
+}
+.register:hover{
+	color: #f00;
+}

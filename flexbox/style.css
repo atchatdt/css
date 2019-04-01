@@ -1,0 +1,43 @@
+/*
+display: flex;
+flex-direction:
+justify-content:
+align-items:
+flex-grow(cả cha lẫn con): tác dụng khi cha còn chỗ trống
+flex-shrink: mặc định là 1;
+ */
+body{
+	margin: 0;
+}
+.container{
+	display: flex;
+	background-color: #ddd;
+	color: #fff;
+	flex-direction: row; /*mặc định row, có thể đổi sang column*/
+/*	justify-content: flex-end; /*vị trí: flex-end (mặc định),flex-end,center*/
+	/*Chi khoảng cách:space-evenly (2 cái nữa)*/
+/*	height: 250px; */
+/*	align-items: flex-end; Theo hướng vuông gốc với hiện tại (row or column)*/
+	/*mặc định stretch*/
+}
+
+/*Cho những thằng con: */
+/*flex-basis
+order: 0*;
+*/
+.child-1{
+	background-color: red;
+	flex-basis: 150px;
+}
+.child-2{
+	background-color: green;
+	flex-basis: 150px;
+	/*flex-grow: 1;*/
+}
+.child-3{
+	background-color: blue;
+	flex-basis: 150px;
+}
+.swap .child-1{
+	order: 1;
+}

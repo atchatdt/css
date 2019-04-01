@@ -1,0 +1,31 @@
+/*position: static*, relative: di chuyển so với vị trí ban đầu, fixed: vị trí so với trang, absolute, stick*/
+/*Các vị trí: top, bottom, left, right*/
+/*
+.container{
+	display: flex;
+
+}
+*/
+.box{
+	width: 100px;
+	height: 100px;
+	color: #fff;
+}
+
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+	/*position: relative;
+	left:  10px;*/
+}
+.blue{
+	background-color: blue;
+}
+
+.fixed{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}

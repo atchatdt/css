@@ -1,0 +1,21 @@
+ .album{
+	width: 128px;
+	height: 128px;
+	background-color:#ddd; 
+	background-image: url('https://loremflickr.com/320/240/cat');
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	font-size: 60px;
+}
+.album .overlay{
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;/*display:none, visibility:hidden*/
+}
+.album:hover .overlay{
+	opacity: 1;
+}
